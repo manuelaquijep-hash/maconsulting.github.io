@@ -1,378 +1,159 @@
 <!DOCTYPE html>
-
 <html lang="es">
-
 <head>
-
   <meta charset="UTF-8">
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>MA Consulting | Consultoría Legal</title>
-
+  <title>MA Consulting | Consultoría Legal Premium</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-
   <style>
-
     body {
-
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-      background: #f0f0f0;
-
-    }
-
-    header {
-
-      background: #0d1b2a;
-
-      color: white;
-
-      padding: 1rem 0;
-
-    }
-
-    .nav-link {
-
-      color: white !important;
-
-      font-weight: 500;
-
-    }
-
-    section {
-
-      padding: 60px 20px;
-
-    }
-
-    .form-section {
-
       background: #f8f9fa;
-
-      padding: 40px;
-
-      border-radius: 10px;
-
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-
+      color: #212529;
     }
-
-    footer {
-
-      background: #0d1b2a;
-
+    header {
+      background: #0a0a0a;
       color: white;
-
+    }
+    .navbar-brand {
+      font-weight: 700;
+      font-size: 1.5rem;
+      color: #d4af37 !important; /* Dorado elegante */
+    }
+    .nav-link {
+      color: white !important;
+      font-weight: 500;
+      margin-left: 15px;
+    }
+    .nav-link:hover {
+      color: #d4af37 !important;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
+      height: 90vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+    }
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: 700;
+    }
+    .hero p {
+      font-size: 1.3rem;
+    }
+    .btn-luxury {
+      background: #d4af37;
+      color: black;
+      font-weight: bold;
+      border: none;
+      padding: 12px 30px;
+      border-radius: 30px;
+    }
+    .btn-luxury:hover {
+      background: #b8962e;
+      color: white;
+    }
+    section {
+      padding: 70px 20px;
+    }
+    h2 {
+      font-weight: 700;
+      margin-bottom: 30px;
+    }
+    footer {
+      background: #0a0a0a;
+      color: white;
       text-align: center;
-
       padding: 20px;
-
-      margin-top: 40px;
-
     }
-
-    h3 {
-
-      margin-top: 30px;
-
-    }
-
   </style>
-
 </head>
-
 <body>
 
-
   <!-- NAVBAR -->
-
   <header>
-
     <nav class="navbar navbar-expand-lg container">
-
-      <a class="navbar-brand text-white fw-bold" href="#">MA Consulting</a>
-
+      <a class="navbar-brand" href="#">MA Consulting</a>
       <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
-
         <span class="navbar-toggler-icon"></span>
-
       </button>
-
       <div class="collapse navbar-collapse" id="menu">
-
         <ul class="navbar-nav ms-auto">
-
-          <li class="nav-item"><a class="nav-link" href="#civiles">Procesos Civiles</a></li>
-
-          <li class="nav-item"><a class="nav-link" href="#familia">Procesos de Familia</a></li>
-
-          <li class="nav-item"><a class="nav-link" href="#penal">Procesos Penales</a></li>
-
+          <li class="nav-item"><a class="nav-link" href="#areas">Áreas</a></li>
           <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
-
         </ul>
-
       </div>
-
     </nav>
-
   </header>
 
-
   <!-- HERO -->
-
-  <section class="text-center bg-light">
-
-    <div class="container">
-
-      <h1 class="fw-bold">Consultoría Legal en Perú</h1>
-
-      <p class="lead">Asesoría profesional en procesos civiles, familiares y penales. Su caso en manos expertas.</p>
-
+  <section class="hero text-center">
+    <div>
+      <h1>Consultoría Legal de Alto Nivel</h1>
+      <p>Exclusividad, confidencialidad y resultados para clientes que exigen excelencia.</p>
+      <a href="#contacto" class="btn btn-luxury mt-4">Solicitar Consulta</a>
     </div>
-
   </section>
 
-
-  <!-- PROCESOS CIVILES -->
-
-  <section id="civiles">
-
-    <div class="container">
-
-      <h2 class="fw-bold text-center mb-4">Procesos Civiles</h2>
-
-      <div class="row">
-
-        <div class="col-md-6">
-
-          <ul>
-
-            <li>Proceso de conocimiento</li>
-
-            <li>Proceso abreviado</li>
-
-            <li>Proceso sumarísimo</li>
-
-            <li>Proceso cautelar</li>
-
-            <li>Proceso de ejecución</li>
-
-            <li>Conciliación</li>
-
-            <li>Transacción judicial</li>
-
-            <li>Desistimiento / Abandono</li>
-
-          </ul>
-
+  <!-- AREAS DE PRÁCTICA -->
+  <section id="areas" class="container text-center">
+    <h2>Áreas de Práctica</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="p-4 bg-white shadow rounded">
+          <h4 class="fw-bold">Derecho Civil</h4>
+          <p>Soluciones estratégicas en litigios, contratos y patrimonio.</p>
         </div>
-
-        <div class="col-md-6">
-
-          <ul>
-
-            <li>Adopción</li>
-
-            <li>Patrimonio familiar</li>
-
-            <li>Sucesión intestada</li>
-
-            <li>Separación convencional y divorcio ulterior</li>
-
-            <li>Unión de hecho</li>
-
-            <li>Rectificación de partidas</li>
-
-            <li>Inventarios</li>
-
-            <li>Recursos: reposición, apelación, casación, queja, consulta</li>
-
-          </ul>
-
-        </div>
-
       </div>
-
-    </div>
-
-  </section>
-
-
-  <!-- PROCESOS DE FAMILIA -->
-
-  <section id="familia" class="bg-light">
-
-    <div class="container">
-
-      <h2 class="fw-bold text-center mb-4">Procesos de Familia</h2>
-
-      <div class="row">
-
-        <div class="col-md-6">
-
-          <ul>
-
-            <li>Pensión alimenticia (hijos, cónyuge, familiares)</li>
-
-            <li>Filiación y pruebas genéticas</li>
-
-            <li>Patria potestad (ejercicio o terminación)</li>
-
-          </ul>
-
+      <div class="col-md-4">
+        <div class="p-4 bg-white shadow rounded">
+          <h4 class="fw-bold">Derecho de Familia</h4>
+          <p>Confidencialidad y protección en procesos familiares sensibles.</p>
         </div>
-
-        <div class="col-md-6">
-
-          <ul>
-
-            <li>Adopción</li>
-
-            <li>Separación de cuerpos / divorcio ulterior</li>
-
-            <li>Patrimonio familiar</li>
-
-            <li>Reconocimiento de unión de hecho</li>
-
-          </ul>
-
-        </div>
-
       </div>
-
-    </div>
-
-  </section>
-
-
-  <!-- PROCESOS PENALES -->
-
-  <section id="penal">
-
-    <div class="container">
-
-      <h2 class="fw-bold text-center mb-4">Procesos Penales</h2>
-
-      <div class="row">
-
-        <div class="col-md-6">
-
-          <ul>
-
-            <li>Ordinario / Común: Homicidio, lesiones, robo, hurto, estafa, fraudes, delitos contra la libertad sexual, delitos contra la propiedad, delitos contra la administración pública</li>
-
-            <li>Inmediato: Delitos flagrantes o con pruebas evidentes (hurto, violencia familiar en flagrancia)</li>
-
-            <li>Querella / Acción privada: Injuria, calumnia, difamación</li>
-
-            <li>Función pública: Delitos cometidos por funcionarios o autoridades (cohecho, malversación de fondos, abuso de autoridad)</li>
-
-          </ul>
-
+      <div class="col-md-4">
+        <div class="p-4 bg-white shadow rounded">
+          <h4 class="fw-bold">Derecho Penal</h4>
+          <p>Defensa sólida y estrategias efectivas en procesos complejos.</p>
         </div>
-
-        <div class="col-md-6">
-
-          <ul>
-
-            <li>Seguridad / Inimputables: Personas inimputables; medidas de seguridad: internamiento, tratamiento obligatorio</li>
-
-            <li>Terminación anticipada: Acuerdo con fiscal; reducción de pena</li>
-
-            <li>Colaboración eficaz: Beneficios procesales por cooperación en investigaciones</li>
-
-            <li>Faltas: Infracciones menores, pequeños hurtos, infracciones de tránsito</li>
-
-            <li>Medidas cautelares: Prisión preventiva, comparecencia, prohibición de salida del país, embargo preventivo</li>
-
-            <li>Recursos: Apelación, casación, queja</li>
-
-          </ul>
-
-        </div>
-
       </div>
-
     </div>
-
   </section>
-
 
   <!-- CONTACTO -->
-
   <section id="contacto" class="bg-light">
-
     <div class="container">
-
-      <h2 class="fw-bold text-center mb-4">Contáctenos</h2>
-
-      <div class="form-section">
-
-        <form method="POST" action="https://formspree.io/f/mldlkpwk">
-
-          <div class="mb-3">
-
-            <label class="form-label">Nombre completo</label>
-
-            <input type="text" class="form-control" name="nombre" required>
-
-          </div>
-
-          <div class="mb-3">
-
-            <label class="form-label">Correo electrónico</label>
-
-            <input type="email" class="form-control" name="email" required>
-
-          </div>
-
-          <div class="mb-3">
-
-            <label class="form-label">Teléfono</label>
-
-            <input type="text" class="form-control" name="telefono">
-
-          </div>
-
-          <div class="mb-3">
-
-            <label class="form-label">Consulta legal</label>
-
-            <textarea class="form-control" name="consulta" rows="4" required></textarea>
-
-          </div>
-
-          <button type="submit" class="btn btn-dark w-100">Enviar consulta</button>
-
-        </form>
-
-        <p class="mt-3 text-center text-success">Nos contactaremos para absolver su consulta, completamente gratis.</p>
-
+      <h2 class="text-center">Contáctenos</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form method="POST" action="https://formspree.io/f/mldlkpwk" class="p-4 bg-white shadow rounded">
+            <div class="mb-3">
+              <label class="form-label">Nombre completo</label>
+              <input type="text" class="form-control" name="nombre" required>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Correo electrónico</label>
+              <input type="email" class="form-control" name="email" required>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Consulta</label>
+              <textarea class="form-control" name="consulta" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-luxury w-100">Enviar</button>
+          </form>
+        </div>
       </div>
-
     </div>
-
   </section>
 
-
   <footer>
-
-    <p>&copy; 2025 MA Consulting - Consultoría Legal en Perú</p>
-
+    <p>&copy; 2025 MA Consulting | Consultoría Legal Premium</p>
   </footer>
 
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
 </body>
-
 </html>
-
-
-
-
-
-
 
